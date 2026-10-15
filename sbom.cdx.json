@@ -1,0 +1,151 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2be6bf9d-ab8d-5228-b7e8-1411afb7e8d4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:41:25Z",
+    "component": {
+      "type": "application",
+      "name": "PYCROSCOPY",
+      "version": "90e2d232acc9",
+      "bom-ref": "pkg:generic/anticloud/PYCROSCOPY@90e2d232acc9",
+      "purl": "pkg:generic/anticloud/PYCROSCOPY@90e2d232acc9",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "90e2d232acc9da634131c1793f082a70a04a3297"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/pycroscopy/pycroscopy"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scipy",
+      "bom-ref": "pypi/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scikit-image",
+      "bom-ref": "pypi/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scikit-learn",
+      "bom-ref": "pypi/scikit-learn@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "unspecified",
+      "purl": "pkg:pypi/matplotlib",
+      "bom-ref": "pypi/matplotlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "unspecified",
+      "purl": "pkg:pypi/torch",
+      "bom-ref": "pypi/torch@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tensorly",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tensorly",
+      "bom-ref": "pypi/tensorly@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tqdm",
+      "bom-ref": "pypi/tqdm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipywidgets",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ipywidgets",
+      "bom-ref": "pypi/ipywidgets@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipython",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ipython",
+      "bom-ref": "pypi/ipython@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "simpleitk",
+      "version": "unspecified",
+      "purl": "pkg:pypi/simpleitk",
+      "bom-ref": "pypi/simpleitk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sidpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/sidpy",
+      "bom-ref": "pypi/sidpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pysptools",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pysptools",
+      "bom-ref": "pypi/pysptools@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cvxopt",
+      "version": "unspecified",
+      "purl": "pkg:pypi/cvxopt",
+      "bom-ref": "pypi/cvxopt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "SciFiReaders",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scifireaders",
+      "bom-ref": "pypi/SciFiReaders@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ipympl",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ipympl",
+      "bom-ref": "pypi/ipympl@unspecified"
+    }
+  ]
+}
